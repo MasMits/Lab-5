@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 5</title>
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+<section class="header"><h1 class="logo"> LOGOOOO</h1>
+    <h1 class="number"> +380 (234) 567 89 00</h1></section>
+<section class="page">
+    <section>
+        <ul class="tabs-controls">
+            <li class="tabs-controls__item">
+                <a href="#" class="tabs-controls__link tabs-controls__link--active" data-id="1">
+                    Завдання 1
+                </a>
+            </li>
+            <li class="tabs-controls__item">
+                <a href="#" class="tabs-controls__link" data-id="2">
+                    Завдання 2
+                </a>
+            </li>
+            <li class="tabs-controls__item">
+                <a href="#" class="tabs-controls__link" data-id="3">
+                    Завдання 3
+                </a>
+            </li>
+            <li class="tabs-controls__item">
+                <a href="#" class="tabs-controls__link" data-id="4">
+                    Завдання 4
+                </a>
+            </li>
+            <li class="tabs-controls__item">
+                <a href="#" class="tabs-controls__link" data-id="5">
+                    Завдання 5
+                </a>
+            </li>
+        </ul>
+    </section>
+    <section class="cards-container">
+        <div class="card card--current first-card" id="1" id="extra">
+            <h1>A. Lorem ipsum dolor sit amet</h1>
+            <p class="red">Dis tellus fusce libero ad nostra, egestas augue nisl ultricies senectus, nascetur dolor
+                aenean eget.</p>
+            <p id="pink">Varius ullamcorper curabitur tortor magnis egestas neque ipsum arcu feugiat, fusce.</p>
+            <p class="red">quam pharetra proin aliquet lectus viverra tempor mauris a, mollis potenti tellus ultricies
+                praesent laoreet augue magna.</p>
+            <p> morbi tincidunt taciti cursus vulputate non venenatis dictumst ex, habitasse lacinia phasellus fusce
+                erat diam vestibulum tellus, nascetur ullamcorper condimentum bibendum finibus hac facilisi gravida</p>
+
+
+        </div>
+        <div class="card card--current" id="2">
+            <h1>A. Lorem ipsum dolor sit amet</h1>
+            <p>
+                <a href="">link to My Github</a>
+            <ul class="menu">
+                <li>Фрукти</li>
+                <ul>
+                    <li><a href="">Ананас</a></li>
+                    <li><a href="">Апельсин</a></li>
+                    <li><a href="">Банан</a></li>
+                    <li><a href="">Яблуко</a></li>
+                </ul>
+                <li>Овочі:</li>
+                <ul>
+                    <li><a href="">Картопля</a></li>
+                    <li><a href="">Огірок</a></li>
+                    <li><a href="">Буряк</a></li>
+                </ul>
+            </ul>
+        </div>
+        <div class="card third-card" id="3">
+<!--            <h1>B. Elit, sed do eiusmod</h1>-->
+            <h1>filter</h1>
+            <p>Метод <code>arr.filter(callback[, thisArg])</code>используется для фильтрации массива через функцию.</p>
+            <p>Он создаёт новый массив, в который войдут только те элементы arr, для которых вызов callback(item, i,
+                arr)возвратит true.</p>
+            <h3> Например:</h3>
+            <p><code>
+                var positiveArr = arr.filter(function(number) {
+                return number > 0;
+                });
+            </code></p>
+            <p><code> alert( positiveArr ); // 1,2,3 </code></p>
+        </div>
+        <div class="card test" id="4">
+            <h1>Пшоняна каша з гарбузом</h1>
+            <p>
+            <div class="img-wrapper">
+            <a href="https://i.pinimg.com/564x/fa/ee/aa/faeeaadc9ba7bc9a363d31a3e27edc6b.jpg"><img class="meal" src="https://i.pinimg.com/564x/fa/ee/aa/faeeaadc9ba7bc9a363d31a3e27edc6b.jpg" alt=""></a>
+            </div>
+
+            <article>
+                <ul class="ingredients">
+                    <li>
+                        <div class="amount">1 стакан</div>
+                        <div class="ingredient">Пшоно</div>
+                    </li>
+                    <li>
+                        <div class="amount">2 Стакана</div>
+                        <div class="ingredient">Вода</div>
+                    </li>
+                    <li>
+                        <div class="amount">300 грам</div>
+                        <div class="ingredient">Гарбуз</div>
+                    </li>
+                    <li>
+                        <div class="amount">2 стакани</div>
+                        <div class="ingredient">Молоко</div>
+                    </li>
+                </ul>
+                <div class="preperation">
+                    <h1>Примітка</h1>
+                    <div></div>
+                    <div>Пшоно треба перебрати, гарбуз нарізати на кубіки,кашу не перемішувати</div>
+                </div>
+            </article>
+            </p>
+        </div>
+        <div class="card" id="5">
+            <h1>Який розділ психології вивчає пізнавальні процеси людської свідомості,</h1>
+            <div class="questionnaire">
+                <form class="questionnaire-form">
+                    <label>
+                        <input type="radio" name="radio" checked/>
+                        <span>Психоаналіз</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="radio"/>
+                        <span>Біхевіоризм</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="radio"/>
+                        <span>Когнітивна психологія</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="radio"/>
+                        <span>Гештальт-психологія</span>
+                    </label>
+
+                    <div class="container">
+                        <div class="submit-feedback">Відповісти</div>
+                    </div>
+                </form>
+                <div class="cooker-wrapper"><img src="img/img.png" alt="" style="height: 250px"></div>
+            </div>
+        </div>
+    </section>
+</section>
+<section class="footer"><h1>@Misha Mas KN-2-2</h1></section>
+
+</body>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="main.js"></script>
+</html>
